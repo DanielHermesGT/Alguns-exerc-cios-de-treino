@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(32, 28, 28);
+}
+
+
+button{
+    border-radius: 50%;
+    background-color: white;
+    width: 3em;
+    height: 3em;
+    font-size: smaller;
+    text-align: center;
+    border: none;
+
+    
+}
+
+body > div{
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+}
+.meio{
+    top: 15em;
+    left: 41%;
+}
+
+.whatss{
+    top: 15em;
+    left: 30%;
+    
+}
+.face{
+    top: 15em;
+    left: 40%;
+    
+}
+.git{
+    top: 11em;
+    left: 33%;
+    
+}
+.you{
+    top: 11em;
+    left: 23%;
+}
+.tik{
+    top: 19em;
+    left: 26%;
+}
+.insta{
+    top: 19em;
+    left: 16%;
+}
+
