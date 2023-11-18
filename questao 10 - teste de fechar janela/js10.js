@@ -1,0 +1,5 @@
+function clicou(){
+
+    window.close()
+
+}
