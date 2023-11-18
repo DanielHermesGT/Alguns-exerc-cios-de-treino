@@ -10,7 +10,7 @@ function clicou(){
     if(vari >= 1){
         nao.innerHTML = "não tem mais volta!"
     }
-    if( vezesqueclicou == 19){
+    if( vezesqueclicou == 10){
         const tempo = [1, 2, 3]
         for(i = 0; i < 3; i++){
             window.alert("ah é? auto destruição em: " + (tempo[2] - i))
@@ -36,3 +36,5 @@ function clicou2(){
     clicoutest++
     vari++;
 }
+
+//metodo mais didatico utilizado!
