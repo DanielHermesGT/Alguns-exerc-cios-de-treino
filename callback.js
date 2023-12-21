@@ -1,50 +1,37 @@
-// function exibir(num){
-//     console.log(num)
-// }
+function exibir(num){
+    console.log(num)
+}
 
-// function soma(a, b, callback){
-//     var op = a+b
-//     callback(op)
+function soma(a, b, callback){
+    var op = a+b
+    callback(op)
 
-// }
-// function multi(a,b, callback){
-//     var op = a * b
-//     callback(op)
-// }
+}
+function multi(a,b, callback){
+    var op = a * b
+    callback(op)
+}
 
-// soma(2,2, exibir)
+soma(2,2, exibir)
 
-// multi(2,2, exibir)
-
-
-//======OU=======
+multi(2,2, exibir)
 
 
-// function soma(a,b){
-//     let op = a + b
-//     console.log(op)
-// }
+======OU=======
 
-// function mult(a, b){
-//     let op = a *b
-//     console.log(op)
-// }
 
-// function user(a, b, callback){
-//     callback(a, b)
-// }
+function soma(a,b){
+    let op = a + b
+    console.log(op)
+}
 
-// user(2,6, soma)
+function mult(a, b){
+    let op = a *b
+    console.log(op)
+}
 
-//outro exe================
+function user(a, b, callback){
+    callback(a, b)
+}
 
-// const inserirNome = (cb) =>{
-//     let name = 'Nicolas'
-//     cb(name)
-// }
-
-// const meunome = (nome) => {
-//     console.log("Ola, " + nome)
-// }
-
-// inserirNome(meunome)
+user(2,6, soma)
